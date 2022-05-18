@@ -7,10 +7,10 @@ function Dictionary(props){
                 <span className="emoji" role="img" aria-label="Tense Biceps">
                     {props.emoji}
                 </span>
-                <span>{props.title}</span>
+                <span>{props.name}</span>
             </dt>
           <dd>
-          {props.detail}
+          {props.meaning}
           </dd>
         </div>
     )
